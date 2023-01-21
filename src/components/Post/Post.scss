@@ -1,0 +1,43 @@
+.post-creator{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-bottom: 10px;
+    .post-creator-image{
+        flex-basis: 60px;
+    }
+    .post-creator-name{
+        flex-basis: 200px;
+        .date-audience{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            svg{
+                color:#888EA4;
+                flex-basis: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    .more{
+        flex: 1;
+        display: flex;
+        justify-content: end;
+        align-self: flex-start;
+        color:#B1B1B3 ;
+        cursor: pointer;
+    }
+}
+.post-content{
+    margin-bottom: 10px;
+}
+.post-translation{
+    margin-bottom: 10px;
+}
+.post-image{
+    margin-bottom: 10px;
+}
+.post-icons{
+    display: flex;
+    justify-content: space-around;
+}

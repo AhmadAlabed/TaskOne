@@ -1,0 +1,16 @@
+.language{
+    padding: 10px;
+    background-color: #363636;
+    text-align: center;
+    margin-bottom: 20px;
+    span{
+        padding: 10px;
+        border: 1px solid #525252;
+        border-radius: 5px;
+        color: #807f7f;
+        cursor: pointer;
+    }
+    .active{
+        background-color: #1d1d1d;
+    }
+}
